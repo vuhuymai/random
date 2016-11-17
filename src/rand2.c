@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+void init_rand(void)
+{
+srand(time(NULL));
+}
 int random_int(int max)
 {
 return rand() % max;
