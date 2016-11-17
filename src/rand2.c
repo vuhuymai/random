@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+//Hell world comment
 void init_rand(void)
 {
 srand(time(NULL));
